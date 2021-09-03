@@ -1,0 +1,708 @@
+body{
+    margin: 0px;
+}
+
+/*Body header*/
+.body-header{
+    height:75vh;
+    opacity: 0.8;
+    background-image: url(keila-hotzel-tJtUvIG3vPI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+/* Horizontal lists in navbar*/
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li   /*nesting css selectors*/
+{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+
+}
+
+.horizontal-list li a{
+    color: blueviolet;
+    text-decoration: none;
+    margin: 10px;
+}
+.nav_menu li a{
+    transition: color 0.5s,border-bottom 4s;
+} 
+.horizontal-list li a i{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 40px;
+    visibility: visible;
+} 
+.nav_menu li a:hover{
+    color: grey;
+    border-bottom: 1px solid rgb(0, 183, 255);
+}
+.horizontal-list li a:hover i{
+  transform: scale(1.4);
+}
+
+.text-center{
+    text-align: center;
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+.my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+    padding: 0px;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50%;
+}
+/* About section */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.my_image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+.my_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.paragraph{
+    font-size: medium;
+    color: black;
+    text-align: center;
+    flex-direction: wrap;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+}
+/*section:nth-child(2n)
+{
+    background-color: rgb(238, 245, 243);
+}
+section:nth-child(2n+1){
+
+    background-color: white;
+}*/
+.section_heading{
+    width: auto;
+    padding: 20px 10px 0px;
+    font-weight: 400;
+}
+.section_heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+/*Skills section*/
+#skills{
+    text-align: center;
+}
+.skills_display{
+    width: 70%;
+    /*border: 2px solid black;
+    height: 100px;*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.skill_progress{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    box-shadow: 0px 1px 1px 2px lightgray;
+}
+.skill_name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+/*common colour classes*/
+.mb75px{
+    margin-bottom: 75px;
+}
+.mb_blue{
+    background-color: #2857a4;
+}
+/*Percentage classes*/
+.eighty_fivepercent{
+  width: 85%;
+  height: inherit;
+}
+.skill_progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.ninty_fivepercent{
+    width: 95%;
+  height: inherit;
+}
+.mb_pink{
+    background-color: palevioletred;
+}
+.skill_name1 span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.ninty_percent{
+    width: 90%;
+    height: inherit;
+}
+.mb_red{
+    background-color: red;
+}
+.skill_name2 span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.eighty_percent{
+    width: 80%;
+    height: inherit;
+}
+.mb_orange{
+    background-color: orangered;
+}
+.skill_name3 span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.skill_name4 span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.sixty_fivepercent{
+    width: 65%;
+    height: inherit;
+}
+.mb_green{
+    background-color: green;
+}
+.skill_name5 span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.seventy_fivepercent{
+    width: 75%;
+    height: inherit;
+}
+.mb_violet{
+    background-color: rgb(114, 21, 114);
+}
+.skill_name6 span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.fifty_percent{
+    width: 50%;
+    height: inherit;
+}
+.mb_yellow{
+    background-color: rgb(105, 105, 8);
+}
+.skill_name7 span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.eighty_fivepercent{
+    width: 85%;
+    height: inherit;
+}
+.mb_pink1{
+    background-color: rgb(224, 26, 149);
+}
+.skill_name8{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.seventy_fivepercent{
+    width: 75%;
+    height: inherit;
+}
+.mb_darkpink{
+    background-color: rgb(224, 26, 52);
+}
+.skill_name9{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.mb_black{
+    background-color: rgb(14, 3, 4);
+}
+/* Timeline */
+.timeline{
+    position: relative;
+    width: 75%;
+}
+.timeline_box{
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    margin: 5px;
+}
+.timeline_box:nth-child(2n){
+    left: 53%;
+}
+.timeline_box:nth-child(2n+1)::after{
+    content:'';
+    position: absolute;
+    top: 20%;
+    right: -13%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(165, 164, 164);
+    z-index: 1;
+}
+.timeline_box:nth-child(2n)::after{
+    content:'';
+    position: absolute;
+    top: 20%;
+    left: -9%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(165, 164, 164);
+    z-index: 1;
+}
+
+.timeline_divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #3b44496b;
+    margin-top: 3%;
+    left: 50%;
+    z-index: 2;
+} 
+.timeline_traveller{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+}
+/*Education section*/
+#education{
+    height: auto;
+    width: 100%;
+   margin-top: 40%;
+    position: relative;
+}
+.timeline__1{
+    position: relative;
+    width: 75%;
+}
+.timeline_divider1{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    margin-top: 3%;
+    left: 50%;
+    z-index: 2;
+}
+.timeline_traveller1{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+}
+.timeline_box1{
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    margin: 5px;
+}
+.timeline_box1:nth-child(2n){
+    left: 53%;
+}
+.timeline_box1:nth-child(2n+1)::after{
+    content:'';
+    position: absolute;
+    top: 20%;
+    right: -13%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(165, 164, 164);
+    z-index: 1;
+}
+.timeline_box1:nth-child(2n)::after{
+    content:'';
+    position: absolute;
+    top: 20%;
+    left: -9%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(165, 164, 164);
+    z-index: 1;
+}
+
+#logo1 img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#logo2 img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#content_1{
+    display: flex;
+    /*justify-content: space-bet;*/
+}
+#logo3 img{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+#logo4 img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+#logo5 img{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+#logo__2 img{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+#logo__1 img{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+#content__2{
+    display: flex;
+}
+/*Portfolio section*/
+#Portfolio{
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+.portfolio1{
+    height:auto;
+    width: auto;
+   display: flex;
+}
+
+.Hari-bol{
+    height: 50%;
+    width: auto;
+}
+#help{
+    text-align: center;
+    margin-top: 10px;
+}
+.Hare-krishna{
+    height: 50%;
+    width: auto;
+    margin-left: 40%;
+}
+#help_1{
+    margin-left: 40%;
+    display: block;
+    margin-top: 10px;
+}
+.portfolio2{
+    height:auto;
+    width: auto;
+    display: flex;
+}
+.Hari-bol1{
+    height: 50%;
+    width: auto;
+    margin-top: 150px;
+}
+.Hare-krishna1{
+    height:50%;
+    width: auto;
+    margin-left: 40%;
+    margin-top: 150px;
+}
+#help__1{
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.hk{
+    height: auto;
+    width: auto;
+}
+#Click__here{
+    height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transform: all 2s ease-in-out;
+}
+#Click__here:target{
+    height: 70%;
+    width: 70%;
+    top: 25%;
+    left: 25%;
+    background-color: lightgray;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 1px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.social-icons1 li a i{
+    padding: 0px;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 50%;
+}
+.Hri__bol{
+    text-align: center;
+}
+.radheradhe{
+    text-align: center;
+}
+@media (max-width: 640px){
+    .my_image{
+        height: 5rem;
+        width: 5rem;
+        margin: auto;
+        margin-top: -25px;
+    }
+    .container {
+        border-radius: 2px;
+        background-color: #f2f2f2;
+        padding: 1px;
+      }
+    .my_image img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+    .social-icons li a i{
+        margin-top: 50px;
+        padding: 0px;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 50%;
+    }
+    .my-name{
+        padding-top: 50px;
+        font-size: 30px;
+        letter-spacing: 0.1px;
+        color: black;
+    }
+    .horizontal-list{
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+    }
+    .horizontal-list li   /*nesting css selectors*/
+    {
+        display: inline-block;
+        margin: 0px 2px 2px 0px;
+        font-weight: 50;
+    
+    }
+    .body-header{
+        height: 60vh;
+        opacity: 0.7;
+        margin-left: 0;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        background-image: url(mobile\ vala\ approach.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+    }
+    
+    .horizontal-list li a{
+        color: rgb(35, 10, 59);
+        text-decoration: none;
+        margin: 5px;
+    }
+    #education{
+        height: auto;
+        width: 100%;
+       margin-top: 100%;
+        position: relative;
+    }
+    .timeline{
+        position: relative;
+        width: 75%;
+    }
+    .timeline_box{
+        position: relative;
+        width: 30%;
+        left: 2%;
+        max-height: 450px;
+        margin: 2px;
+    }
+    .timeline_box:nth-child(2n){
+        left: 53%;
+    }
+    .timeline_box:nth-child(2n+1)::after{
+        content:'';
+        position: absolute;
+        top: 40%;
+        right: -13%;
+        border-radius: 50%;
+        width: 0.2rem;
+        height: 0.2rem;
+        background-color: rgb(165, 164, 164);
+        z-index: 1;
+        overflow: hidden;
+    }
+    .timeline_box:nth-child(2n)::after{
+        content:'';
+        position: absolute;
+        top: 20%;
+        left: -9%;
+        border-radius: 50%;
+        width: 0.2rem;
+        height: 0.2rem;
+        background-color: rgb(165, 164, 164);
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+    .timeline_divider{
+        position: absolute;
+        height: 45%;
+        width: 0;
+        border: 3px dashed #3b44496b;
+        margin-top: 3%;
+        left: 50%;
+        z-index: 2;
+    } 
+    .timeline_traveller{
+        position: sticky;
+        top: 25%;
+        transform: rotate(90deg);
+    }
+    .timeline__1{
+        position: relative;
+        width: 75%;
+    }
+    #education{
+        height: 400px;
+        width: 100%;
+       margin-top: 70%;
+        position: relative;
+    }
+    .timeline_divider1{
+        margin-top: 10%;
+        position: absolute;
+        height: 55%;
+        width: 0;
+        border: 3px dashed #0096fa6b;
+        left: 50%;
+        z-index: 2;
+    }
+    .timeline_traveller1{
+        position: sticky;
+        top: 25%;
+        transform: rotate(90deg);
+    }
+    #Portfolio{
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+    .portfolio1{
+        height:auto;
+        width: auto;
+       display: flex;
+    }
+    
+    .Hari-bol{
+        height: 50%;
+        width: auto;
+    }
+    #help{
+        text-align: center;
+        margin-top: 10px;
+    }
+}
